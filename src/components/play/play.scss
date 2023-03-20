@@ -1,0 +1,176 @@
+@import '../../assets/scss/color.scss';
+
+.play {
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px 20px;
+
+    .line-div {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        position: relative;
+        height: fit-content;
+
+        .line1 {
+            width: 100%;
+            height: 3px;
+            background-color: black;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+        }
+
+        .line2 {
+            width: 100%;
+            height: 3px;
+            background-color: $grayColorLight;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+
+        }
+
+        .button {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: white;
+            border: solid 3px black;
+            border-radius: 100px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
+            left: 30%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left {
+            display: flex;
+
+            .icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25px;
+                height: 25px;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                background-color: #F0F0FF;
+                margin: 0 4px;
+                color: $grayColorLight;
+            }
+        }
+
+        .center {
+            display: flex;
+            align-items: center;
+
+            .icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25px;
+                height: 25px;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                margin: 0 10px;
+                color: $grayColorLight;
+                font-size: 20px;
+            }
+
+            .next {
+                font-style: 22px;
+                color: black;
+            }
+
+            .main {
+                font-style: 22px;
+                color: white;
+                background-color: black;
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                -ms-border-radius: 100%;
+                -o-border-radius: 100%;
+                font-size: 25px;
+            }
+
+        }
+
+        .right {
+            display: flex;
+            align-self: center;
+
+            .icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25px;
+                height: 25px;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                margin: 0 10px;
+                color: $grayColorLight;
+                font-size: 20px;
+
+            }
+
+            .voliume {
+                width: 50px;
+                margin-top: 10px;
+
+            }
+        }
+    }
+
+    .second {
+        display: flex;
+        width: 100%;
+        margin-top: 7px;
+
+        .playbar {
+            width: 100%;
+            margin-top: 8px;
+            padding: 0 10px;
+        }
+
+        .time {
+            p {
+                font-size: 13px;
+                font-weight: 500;
+            }
+        }
+    }
+}

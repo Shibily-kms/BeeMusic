@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.scss'
 import Sidebar from '../components/side-bar/Sidebar'
+import Center from '../components/center/Center'
 
 function Home() {
   return (
@@ -10,8 +11,8 @@ function Home() {
           <Sidebar />
         </div>
         <div className="main-div">
-          <div className="content-div">
-
+          <div className="center-div">
+            <Center />
           </div>
         </div>
         <div className="right-div">

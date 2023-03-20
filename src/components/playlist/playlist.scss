@@ -1,0 +1,66 @@
+@import '../../assets/scss/color.scss';
+
+.playlist {
+    margin-top: 15px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        .left {
+            h4 {
+                font-size: 23px;
+                font-weight: 600;
+                color: $grayColorDark;
+            }
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 12px;
+                color: $grayColorLight;
+            }
+        }
+    }
+
+    .song-list {
+        table {
+            width: 100%;
+            border-spacing: 20px 15px;
+
+            thead {
+                th {
+                    text-align: start;
+                    font-weight: normal;
+                    font-size: 12px;
+                    color: rgb(185, 185, 185);
+                }
+
+                .time {
+                    text-align: end;
+                }
+            }
+
+            tbody {
+                tr {
+                    cursor: pointer;
+
+                    td {
+                        font-size: 13px;
+                        font-weight: 500;
+                        color: rgb(95, 95, 95);
+                    }
+
+                    .time {
+                        text-align: end;
+                    }
+                }
+
+            }
+        }
+    }
+}
