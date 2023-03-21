@@ -153,6 +153,8 @@
 
             }
         }
+
+
     }
 
     .second {
@@ -170,6 +172,20 @@
             p {
                 font-size: 11px;
                 font-weight: 500;
+            }
+        }
+    }
+
+    @media screen and (max-width : 550px) {
+        .first {
+            justify-content: center;
+
+            .right {
+                display: none;
+            }
+
+            .left {
+                display: none;
             }
         }
     }
