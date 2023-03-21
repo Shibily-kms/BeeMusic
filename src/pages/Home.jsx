@@ -2,6 +2,7 @@ import React from 'react'
 import './home.scss'
 import Sidebar from '../components/side-bar/Sidebar'
 import Center from '../components/center/Center'
+import Right from '../components/right/Right'
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
           </div>
         </div>
         <div className="right-div">
-
+          <Right />
         </div>
       </div>
     </div>

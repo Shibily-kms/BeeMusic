@@ -1,0 +1,137 @@
+@import '../../assets/scss/color.scss';
+
+.right-comp {
+
+    padding: 20px 20px 20px 0;
+
+    .section-one {
+        .title {
+            color: $grayColorDark;
+            font-size: 17px;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+
+            .item {
+                display: flex;
+                background-color: white;
+                margin: 5px;
+                padding: 10px 15px;
+
+                p {
+                    font-size: 11px;
+                    font-weight: 600;
+                }
+
+                border-radius: 100px;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+                -ms-border-radius: 100px;
+                -o-border-radius: 100px;
+            }
+        }
+    }
+
+    .section-two {
+        margin-top: 15px;
+
+        .title {
+            color: $grayColorDark;
+            font-size: 17px;
+        }
+
+        .profile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 13px 0;
+
+            .left {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 100%;
+                    -webkit-border-radius: 100%;
+                    -moz-border-radius: 100%;
+                    -ms-border-radius: 100%;
+                    -o-border-radius: 100%;
+                }
+
+                .details {
+                    margin-left: 10px;
+
+                    h5 {
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 11px;
+                        color: rgb(158, 158, 158);
+                    }
+                }
+            }
+
+            .right {
+                display: flex;
+
+                div {
+                    margin: 0 -3px;
+                }
+            }
+        }
+    }
+
+    .section-three {
+        background-color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding: 15px;
+
+        .image {
+            width: 100%;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            height: 130px;
+            background-color: salmon;
+            margin-bottom: 10px;
+            background-image: url('../../assets/images/pf3.jpg');
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+        }
+
+        .details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h5 {
+                font-size: 13px;
+                margin: 0;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 11px;
+                color: rgb(138, 138, 138);
+            }
+
+            .right {
+                font-size: 18px;
+                color: $grayColorDark;
+            }
+        }
+    }
+}
